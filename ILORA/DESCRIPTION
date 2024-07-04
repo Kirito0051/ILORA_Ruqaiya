@@ -1,0 +1,17 @@
+Package: ILORA
+Title: Indian Alien Flora Information (ILORA) Database Retrieval
+Version: 0.1.0
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Facilitates retrieval and analysis of species occurrence data from the Indian Alien Flora Information (ILORA) database. Includes functions for retrieving species names, variable names, and species data based on user-specified criteria.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
